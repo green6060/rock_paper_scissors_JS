@@ -1,0 +1,28 @@
+#flexWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+#history {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+#historyTrack {
+  flex-grow: 1;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#historyPercent {
+  flex-grow: 1;
+}
+
+body {
+  text-align: center
+}
